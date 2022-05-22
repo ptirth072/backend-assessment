@@ -1,14 +1,14 @@
 # Backend Assessment
 
 ### Assumptions made
-Assume cars are not owned by users.
-License plate and VIN number to be unique.
-All fields required by default except for description.
-Length for each fields can be anything but greater than zero.
-UI Frontend will send the request in the expected JSON format.
-User Authentication is out of scope.
-Exception handling can be done separately based on the business work flow.
-Only basic information for the vehicle is retrieved and saved.
+- Assume cars are not owned by users.
+- License plate and VIN number to be unique.
+- All fields required by default except for description.
+- Length for each fields can be anything but greater than zero.
+- UI Frontend will send the request in the expected JSON format.
+- User Authentication is out of scope.
+- Exception handling can be done separately based on the business work flow.
+- Only basic information for the vehicle is retrieved and saved.
 
 The requirements could have been achieved by using single database table but I have used 2 table to keep the VIN information isolated from the main table with one to one relationship.
 
