@@ -94,5 +94,3 @@ curl --location --request PUT 'localhost:8889/car-details/529eb6e0-f81a-4769-ae5
       - For someone with not being familiar to tech stack I would say 7/8 otherwise will give it a 4
   - If given the choice, would they rather have done an Leet-code style assessment over a project-based assessment
       My personal preference for this is project-based assessment
-
-
