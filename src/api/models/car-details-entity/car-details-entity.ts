@@ -33,7 +33,7 @@ export class CarDetailsEntity extends BaseEntity {
   @Column()
   registration_name: string;
 
-  @OneToOne(type => VINDetailsEntity, vinDetaild => vinDetaild.id, {onDelete:'CASCADE'})
+  @OneToOne(type => VINDetailsEntity, vinDetails => vinDetails.id, {onDelete:'CASCADE'})
   @JoinColumn()
   vin_details: VINDetailsEntity
 
